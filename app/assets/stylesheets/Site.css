@@ -1,0 +1,237 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body {
+/**    background: url("/img/texture-bg.png") repeat scroll 0 0 #F1F1F1; **/
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    color: #444444;
+    font: 21px/1.4 "proxima-nova","Proxima Nova",Proxima,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#logo
+{
+    background: url("/assets/endorsely-logo.png");
+    float: left;
+    width: 100%;
+}
+
+h1 
+{
+    font-size: 54px;
+    margin: 10px 0;
+    font-family: inherit;
+    font-weight: normal;
+    color: #898D90;
+    text-rendering: optimizelegibility;    
+    line-height: 40px;
+}
+
+#header {
+    overflow: hidden;
+    padding: 15px 0;
+    display: block;
+}
+
+#header .branding {
+    float: left;
+    width: 370px;
+    height: 59px;
+    background: url("/assets/endorsely-logo.png") no-repeat;
+}
+
+#header .tagline {
+    color: #ACACAC;    
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+#content {
+    background-color: #292B38;
+    width: 100%;
+    height: 465px;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    font-size: 13px;
+    padding: 10px;
+    width: 167px;
+}
+
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: #999999;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #FFFFFF;
+    color: #999999;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    border-radius: 4px 4px 4px 4px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    vertical-align: middle;    
+}
+
+#sign-up {
+    padding: 20px;
+    float: left;
+    width: 190px;
+    background-color: #F2F4F7;    
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px 20px 10px;
+    padding: 20px 10px;
+}
+
+#form1 label.error {
+    color: #4B9BE9;
+    float: left;
+    font-size: 14px;
+    position: relative;
+    top: -7px;
+    margin-left: 40px;
+    float: left;
+}
+
+label, select, button, input[type="button"], input[type="reset"], input[type="submit"], input[type="radio"], input[type="checkbox"] {
+    cursor: pointer;
+}
+
+#spinner
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 18px;
+}
+
+#benefits 
+{
+    background-color: #F2F4F7;
+    width: 100%;
+    min-height: 300px;
+}
+
+ul.benefits 
+{
+    display: inline-block;
+    padding: 0;
+}
+
+ul.benefits li {
+    float: left;
+    list-style: none outside none;
+    margin: 0;
+    text-align: center;
+    width: 33%;
+}
+
+ul.benefits h3 {
+    font: inherit;
+    padding: 0 5%;
+    margin-bottom: 1em;
+    font-size: 1.2em;
+}
+
+ul.benefits li h4 
+{
+    font: inherit;
+    padding: 0px 7%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 0.8em;
+}
+
+.benefits .highlight:before {
+    background: url("/assets/sprite-icons-features.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    display: inline-block;
+    height: 130px;
+    overflow: hidden;
+    text-align: center;
+    width: 140px;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+
+.columns {
+    list-style: none outside none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+
+.columns.three > .column:first-child, .columns.three > .column:nth-child(3n+1), .columns.col-3 > .column:first-child, .columns.col-3 > .column:nth-child(3n+1) {
+    padding-left: 0;
+}
+
+.columns.three > .column:first-child, .columns.three > .column:nth-child(3n+1), .columns.col-3 > .column:first-child, .columns.col-3 > .column:nth-child(3n+1) {
+    padding-left: 0;
+}
+
+.columns.three > .column:nth-child(3n+1), .columns.col-3 > .column:nth-child(3n+1) {
+    clear: left;
+}
+
+.columns.three > .column, .columns.col-3 > .column {
+    width: 33.3333%;
+}
+
+.columns > .column {
+    margin-bottom: auto;
+}
+
+.columns > .column {
+/**    margin-bottom: 30px; **/
+}
+
+.columns > .column {
+    -moz-box-sizing: border-box;
+    float: left;
+    width: 100%;
+}
+
+.benefits .highlight.partnership:before {
+    background-position: 0 -750px;
+}
+
+.benefits .highlight.community:before {
+    background-position: 0 -600px;
+}
+
+#middle {
+    
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 940px;
+}
+
+.hero-graphic {
+    display: block;
+    background: url("/assets/slide-03.jpg") no-repeat scroll center center / cover transparent;
+    color: white;
+    overflow: hidden;
+    position: relative;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    height: 350px;
+}
+
+.flex-nav-container {
+    float: left;
+    margin: 7px 0 0;
+    width: 656px;
+    position: relative;
+    height: 457px;
+}

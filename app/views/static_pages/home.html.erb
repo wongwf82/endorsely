@@ -1,0 +1,67 @@
+<% provide(:title, 'Endorsely.me - better endorsements, made simple') %>
+
+<% content_for :head do %>
+
+  <script type="text/javascript">
+
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+            controlNav: false,
+            controlsContainer: ".flex-container",
+            slideshowSpeed: 5000
+        });       
+      });
+
+  </script>
+  
+<% end %>
+
+<div id="content">
+  <div id="middle" class="container">
+    <div class="flex-nav-container">   
+      <div class="flexslider">
+        <ul class="slides">
+          <li><img src="/assets/slide-2.png" /></li>
+          <li><img src="/assets/slide-2a.png" /></li>
+          <li><img src="/assets/slide-2b.png" /></li>
+          <li><img src="/assets/slide-0.png" /></li>
+          <li><img src="/assets/slide-0a.png" /></li>
+          <li><img src="/assets/slide-0b.png" /></li>
+          <li><img src="/assets/slide-1.png" /></li>
+          <li><img src="/assets/slide-1a.png" /></li>
+          <li><img src="/assets/slide-1b.png" /></li>
+        </ul>
+      </div>    
+    </div>    
+    <div id="sign-up">        
+      <form id="form1" class="form-signin" runat="server">
+        <div style="float:left;">
+          <input id="name" name="name" runat="server" type="text" placeholder="Enter your Name">
+        </div>
+        <div style="float:left;">
+          <input id="email" name="email" runat="server" type="text" placeholder="Enter your Email Address">
+        </div>            
+        <button class='btn btn-success btn-large' id="InviteButton">REQUEST INVITE</button>
+      </form>
+    </div> 
+  </div>
+</div>       
+
+<div id="benefits">
+  <div class="container">
+    <ul class="columns three benefits">                
+      <li class="column highlight endorsements">
+        <h3>Better Endorsements</h3>
+        <h4>Visitors to your site can see endorsements from the press and your happy customers. Increase the credibility of your endorsements by linking back to their LinkedIn profiles or articles. </h4>
+      </li>
+      <li class="column highlight partnership">
+        <h3>Partnership Discovery</h3>
+        <h4>Effortlessly discover new partners and competitors in your market and stay on the pulse of your industry. We endeavour to bring you the latest developments from Angellist, Crunchbase and more.</h4>
+      </li>
+      <li class="column highlight community">
+        <h3>Community Support</h3>
+        <h4>A supportive entrepreneurial ecosystem will help you gain insights for improvement. Try out each other's product and exchange endorsements. Be each other's first customer and early adopter!</h4>                
+      </li>
+    </ul>
+  </div>
+</div>
